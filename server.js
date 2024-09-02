@@ -4,7 +4,7 @@ const db = require('./database');
 
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8001;
 const HOST = process.env.HOST || '0.0.0.0';
 
 app.use(express.json());
